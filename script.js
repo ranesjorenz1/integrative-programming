@@ -6,7 +6,7 @@
 
 const canvas = document.getElementById("c");
 const ctx = canvas.getContext("2d", { alpha: true });
-
+const az = 0;
 const DPR = Math.min(2, window.devicePixelRatio || 1);
 let W = innerWidth,
   H = innerHeight;
